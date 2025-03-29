@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#container {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 500px;
+    animation: fadeIn 1s ease-in-out;
+    border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: cyan;
+    animation: slideIn 1s ease-in-out;
+}
+
+
+.Question {
+    margin: 15px 0;
+    padding: 15px;
+    background: rgba(50, 50, 50, 0.7);
+    border-radius: 10px;
+    animation: popIn 0.5s ease-in-out;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+}
+
+input[type="radio"] {
+    margin: 0;
+    transform: scale(1.2);
+}
+label:hover {
+    color: cyan;
+}
+
+
+button {
+    background: cyan;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: black;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #00e5ff;
+    transform: scale(1.1);
+}
+
+#retry {
+    background: #ff4444;
+    color: white;
+}
+
+#retry:hover {
+    background: #ff6666;
+}
+
+
+#output {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: cyan;
+}
+
+@media (max-width: 600px) {
+    #container {
+        width: 95%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    button {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
