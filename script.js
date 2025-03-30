@@ -605,7 +605,7 @@ problem.forEach((obj, index) => {    /* yha ek ek kar ke 5 object/question  ayeg
 
 
 
-//  for Check the answer 
+//  for Check the answer  and display output 
 form.addEventListener("submit", (event) => {
 
     event.preventDefault();
@@ -628,6 +628,25 @@ Incorrect answers: ${wrong_answer.join(", ")}`;
 })
 
 
+// CountDown Time
+{
+    let timeLeft = 60; // Set the countdown time in seconds
+    const timerDisplay = document.getElementById("timer"); // Get the timer element
+    
+    const countdown = setInterval(() => {
+        if (timeLeft > 0) {
+            timerDisplay.textContent = `Time Left: ${timeLeft} sec`;
+            timeLeft--; // Decrease time
+        } else {
+            clearInterval(countdown); // Stop the timer
+            timerDisplay.textContent = "Time's up!";
+            form.requestSubmit(); // Auto-submit the form properly
+        }
+    }, 1000); // Run every second
+}
+
+
+
 // submit and retry buttton 
 const s_button = document.createElement("button");
 s_button.id = "submit";
@@ -642,5 +661,7 @@ form.appendChild(R_button);
 R_button.addEventListener("click", () => {
     location.reload();  // Reloads the page to generate new questions
 });
+
+
 
 
