@@ -1,4 +1,4 @@
-# Cricket Master - Interactive Cricket Quiz App
+<img width="1478" height="192" alt="Screenshot 2025-08-13 014849" src="https://github.com/user-attachments/assets/66d31ad9-4909-4686-896a-e3daae06e605" /># Cricket Master - Interactive Cricket Quiz App
 
 ## Overview
 
@@ -29,16 +29,7 @@ Cricket Master is a mobile-friendly, interactive cricket quiz app built with HTM
 
 <img width="800" height="1000" alt="Screenshot 2025-08-13 014050" src="https://github.com/user-attachments/assets/1200141f-c183-4ae8-a9a1-ac508a74b181" />
 <img width="800" height="1034" alt="Screenshot 2025-08-13 014113" src="https://github.com/user-attachments/assets/ac893f8b-0c38-4f43-9bc2-dd8d713a1daa" />
-
-
-
-
-<img width="1568" height="188" alt="Screenshot 2025-08-13 014141" src="https://github.com/user-attachments/assets/4d9b891b-5e75-4d70-b30d-01f18f596355" />
-
-
-
-
-
+<img width="1478" height="192" alt="Screenshot 2025-08-13 014849" src="https://github.com/user-attachments/assets/fb128a68-ef9f-4577-b167-13fdca5233fc" />
 
 ---
 
@@ -83,7 +74,7 @@ Cricket Master is a mobile-friendly, interactive cricket quiz app built with HTM
 ## Project Structure
 
 ```
-cricket-master/
+cricket-Quiz/
 ├── index.html        # Main HTML file
 ├── style.css         # Styling and responsive design
 ├── script.js         # JavaScript quiz logic
