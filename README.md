@@ -1,5 +1,3 @@
-<img width="1478" height="192" alt="Screenshot 2025-08-13 014849" src="https://github.com/user-attachments/assets/66d31ad9-4909-4686-896a-e3daae06e605" /># Cricket Master - Interactive Cricket Quiz App
-
 ## Overview
 
 Cricket Master is a mobile-friendly, interactive cricket quiz app built with HTML, CSS, and JavaScript. It features a vast question bank, timed quizzes, instant scoring, and detailed feedback to test and improve your cricket knowledge.
