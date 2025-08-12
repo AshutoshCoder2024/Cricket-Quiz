@@ -62,12 +62,12 @@ Cricket Master is a mobile-friendly, interactive cricket quiz app built with HTM
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/cricket-master.git
+   git clone https://github.com/AshutoshCoder2024/Cricket-Quiz
 
 2. Navigate into the project folder:
 
 
-   cd cricket-master
+   cd cricket-Quiz
    
 4. Open `index.html` in your browser to start the quiz
 
