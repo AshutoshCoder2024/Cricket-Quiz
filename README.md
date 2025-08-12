@@ -1,7 +1,3 @@
-Certainly! Here's your **Cricket Master** README rewritten in the requested format:
-
----
-
 # Cricket Master - Interactive Cricket Quiz App
 
 ## Overview
